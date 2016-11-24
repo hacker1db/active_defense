@@ -36,6 +36,6 @@ script 'install_ADHD' do
   user 'vagrant'
   cwd '/tools/adhd'
   code <<-EOH
-  bash -c "$(curl -sL https://raw.githubusercontent.com/adhdproject/buildkit/master/adhd-install.sh)
+  curl -sL https://raw.githubusercontent.com/adhdproject/buildkit/master/adhd-install.sh
   EOH
 end
