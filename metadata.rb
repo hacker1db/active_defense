@@ -1,6 +1,5 @@
 name 'active_defense'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'hacker1db'
 license 'all_rights'
 description 'Installs/Configures active_defense'
 long_description 'Installs/Configures active_defense'
